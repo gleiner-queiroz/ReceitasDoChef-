@@ -1,0 +1,131 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #0d3d2d;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #eafaf5;
+  padding: 20px 0;
+  border-bottom: 2px solid #0d3d2d;
+  overflow: hidden;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d3d2d;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #1c5b43;
+}
+
+/* Banner */
+.banner {
+  background-color: #f6fffc;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+/* Sessão de receitas */
+.receitas {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.receitas h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  background-color: #eafaf5;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ccc;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  margin: 0 15px 15px;
+}
+
+.botao {
+  display: block;
+  background-color: #0d3d2d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: #1c5b43;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eafaf5;
+  margin-top: 40px;
+  color: #0d3d2d;
+}
